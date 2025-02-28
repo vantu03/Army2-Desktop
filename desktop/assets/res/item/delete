@@ -1,0 +1,48 @@
+cmd.NEXT TURN
+ private void Next_Turn(Message msg)
+    {
+        sbyte whoNext = msg.reader().readByte();
+
+        if (whoNext == GameScr.myIndex)
+        {
+            MainD.main.SetTimeShoot();
+            SystemUIControl.instance.OnBlockTouch(false);
+        }
+        else
+        {
+            // Khoa shoot here
+            SystemUIControl.instance.OnBlockTouch(true);
+        }
+
+        CPlayer.isShooting = false;
+
+        PM.setNextPlayer(whoNext);
+        PM.nBull = 0;
+
+        if (nextTurnFlag == true)
+            nextTurnFlag = false;
+
+        SystemUIControl.instance.OnNotifyStatus("Next turn = " + PM.p[whoNext].pName);
+    }
+	
+	
+	cmd.MOVE ARMY
+	    private void Move_Army(Message msg)
+    {
+        sbyte whoMove = msg.reader().readByte();
+
+        short x = msg.reader().readShort();
+        short y = msg.reader().readShort();
+
+        PM.p[whoMove].xToNow = x;
+        PM.p[whoMove].yToNow = y;
+
+        // UnityEngine.Debug.Log(ColorType._RED + PM.p[whoMove].pName + "  <b>MoveTo</b> (" + x + "," + y + ") </color>");
+
+        // PM.p[whoMove].y += 1000;
+        if (PM.p[whoMove].x != x || PM.p[whoMove].y != y)
+        {
+            GameScr.pm.movePlayer(whoMove, x, y);
+        }
+
+    }
