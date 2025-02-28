@@ -25,7 +25,7 @@ Dưới đây là một số hình ảnh về client:
 git clone https://github.com/vantu03/Army2-Desktop.git
 ```
 2️⃣ **Mở dự án trong NetBeans hoặc IntelliJ IDEA.**  
-3️⃣ **Chạy file Main.java để bắt đầu game.**  
+3️⃣ **Chạy project con Android/iOS/Desktop để bắt đầu game.**  
 
 ## 📢 SEO & Đưa Project Đến Nhiều Người Hơn
 - **Từ khóa liên quan:** MobiArmy 2, căn góc chuẩn, Teamobi, game bắn súng tọa độ, LibGDX game, client MobiArmy 2.
