@@ -1,6 +1,6 @@
 # 📌 Army2 Client - LibGDX
 
-Đây là Project **Army2 Client** được viết lại trên nền tảng **LibGDX**, mô phỏng chính xác 100% cơ chế căn góc của MobiArmy 2.
+👉 Đây là Project **Army2 Client** được viết lại trên nền tảng **LibGDX**, mô phỏng chính xác 100% cơ chế căn góc của MobiArmy 2.
 
 ## 🔹 Giới thiệu
 - **Army2 Client** được phát triển lại từ đầu với nền tảng **LibGDX**, giúp trải nghiệm game mượt mà hơn.
@@ -22,17 +22,20 @@ Dưới đây là một số hình ảnh về client:
 ## 💡 Hướng dẫn cài đặt & chạy
 1️⃣ **Clone repository:**  
 ```sh
-git clone https://github.com/vantu03/Army2-Desktop.git
+git clone https://github.com/vantu03/MobiArmy2-Client.git
 ```
 2️⃣ **Mở dự án trong NetBeans hoặc IntelliJ IDEA.**  
 3️⃣ **Chạy project con Android/iOS/Desktop để bắt đầu game.**  
 
-## 📢 SEO & Đưa Project Đến Nhiều Người Hơn
+## 📢 Kết nối với Server
+- Để kết nối với server, hãy tải và cài đặt **MobiArmy2 Server**:  
+🔗 **Tải Server tại đây:** [MobiArmy2 Server](https://github.com/vantu03/MobiArmy2-Server)
+
+## 📣 SEO & Đưa Project Đến Nhiều Người Hơn
 - **Từ khóa liên quan:** MobiArmy 2, căn góc chuẩn, Teamobi, game bắn súng tọa độ, LibGDX game, client MobiArmy 2.
 - **Chia sẻ trên các cộng đồng:** Facebook Group, Reddit, Discord, diễn đàn game.
 - **Viết bài trên blog hoặc Medium:** Hướng dẫn cách chạy game, cách chỉnh sửa client.
 
 ---
 
-✅ Nếu bạn có bất kỳ góp ý nào, hãy mở **Issues** hoặc tạo **Pull Request** để cải thiện dự án! 🚀
-
+💚 Nếu bạn có bất kỳ góp ý nào, hãy mở **Issues** hoặc tạo **Pull Request** để cải thiện dự án! 🚀
