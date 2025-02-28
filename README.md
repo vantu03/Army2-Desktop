@@ -13,10 +13,10 @@
 ## 📸 Hình ảnh minh họa
 Dưới đây là một số hình ảnh về client:
 
-![Ảnh 1](assets/anh%201.png)
-![Ảnh 2](assets/anh%202.png)
-![Ảnh 3](assets/anh%203.png)
-![Ảnh 4](assets/anh%204.png)
+![Ảnh 1](assets/anh1.png)
+![Ảnh 2](assets/anh2.png)
+![Ảnh 3](assets/anh3.png)
+![Ảnh 4](assets/anh4.png)
 
 ## 💡 Hướng dẫn cài đặt & chạy
 1️⃣ **Clone repository:**  
